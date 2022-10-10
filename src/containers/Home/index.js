@@ -1,7 +1,6 @@
 import { BottomMenu } from '../../components/BottomMenu'
 import { Iframe } from './styles'
 import { useHome } from '../../hooks/HomeContext'
-import { useState } from 'react'
 import HashLoader from 'react-spinners/HashLoader'
 
 export function Home() {

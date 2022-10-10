@@ -2,7 +2,7 @@ import { Bottom } from './styles'
 import Logo from '../../assets/img/logo-devclub.png'
 import { Image, ContainerItems, Label } from './styles'
 import { MdPeopleAlt } from 'react-icons/md'
-import { MdOutlineWorkOutline } from 'react-icons/md'
+// import { MdOutlineWorkOutline } from 'react-icons/md'
 import { useHome } from '../../hooks/HomeContext'
 
 export function BottomMenu() {

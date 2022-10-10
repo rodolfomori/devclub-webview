@@ -9,7 +9,7 @@ export const HomeProvider = ({ children }) => {
   const [loading, setLoading] = useState(true)
 
   return (
-    <HomeContext.Provider value={{ setIframe, iFrame, loading, setLoading}}>
+    <HomeContext.Provider value={{ setIframe, iFrame, loading, setLoading }}>
       {children}
     </HomeContext.Provider>
   )
@@ -26,5 +26,5 @@ export const useHome = () => {
 }
 
 HomeProvider.propTypes = {
-  children: PropTypes.node
+  children: PropTypes.node,
 }
