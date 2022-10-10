@@ -6,10 +6,19 @@ const HomeContext = createContext({})
 
 export const HomeProvider = ({ children }) => {
   const [iFrame, setIframe] = useState(0)
+  const [iFrameKey, setIFrameKey] = useState(0)
   const [loading, setLoading] = useState(true)
+  
+  function changeIframe(iframe){
+    if(iframe !== iFrame){
+      setIframe(iframe)
+    }
+    setIFrameKey(iFrameKey + 1)
+    setLoading(true)
+  }
 
   return (
-    <HomeContext.Provider value={{ setIframe, iFrame, loading, setLoading }}>
+    <HomeContext.Provider value={{ setIframe, iFrame, loading, setLoading, changeIframe, iFrameKey }}>
       {children}
     </HomeContext.Provider>
   )

@@ -4,7 +4,7 @@ import { useHome } from '../../hooks/HomeContext'
 import HashLoader from 'react-spinners/HashLoader'
 
 export function Home() {
-  const { iFrame, setLoading, loading } = useHome()
+  const { iFrame, setLoading, loading, iFrameKey } = useHome()
 
   const override = {
     position: 'fixed',
@@ -18,12 +18,14 @@ export function Home() {
         <Iframe
           src="https://comunidade.rodolfomori.com.br"
           onLoad={() => setLoading(false)}
+          key={iFrameKey}
         ></Iframe>
       )}
       {iFrame === 1 && (
         <Iframe
           src="https://plataforma.devclub.com.br"
           onLoad={() => setLoading(false)}
+          key={iFrameKey}
         ></Iframe>
       )}
       {!loading && <BottomMenu />}

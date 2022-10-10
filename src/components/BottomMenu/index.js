@@ -6,26 +6,16 @@ import { MdPeopleAlt } from 'react-icons/md'
 import { useHome } from '../../hooks/HomeContext'
 
 export function BottomMenu() {
-  const { setIframe, setLoading } = useHome()
-
-  function changeIframe(iframe){
-    setIframe(iframe)
-  }
+  const { changeIframe } = useHome()
 
   return (
     <Bottom>
-      <ContainerItems onClick={() => {
-        changeIframe(1)
-        setLoading(true)
-      }}>
+      <ContainerItems onClick={() => changeIframe(1)}>
         <Image src={Logo} alt="devclub-logo" />
         <Label>DevClub</Label>
       </ContainerItems>
 
-      <ContainerItems onClick={() => {
-        changeIframe(0)
-        setLoading(true)
-      }}>
+      <ContainerItems onClick={() => changeIframe(0)}>
         <MdPeopleAlt />
         <Label>Comunidade</Label>
       </ContainerItems>
