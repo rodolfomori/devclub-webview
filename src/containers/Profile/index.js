@@ -10,11 +10,11 @@ export function Profile() {
 
         <p>Seus dados não são utilizados fora dessa plataforma e estão seguros conosco 💚</p>
 
-        <a onClick={() => changeIframe(0)}> Conteúdos do DevClub</a>
+        <button onClick={() => changeIframe(0)}> Conteúdos do DevClub</button>
 
         <p>Mas caso queira deletar completamente a sua conta, clique no botão abaixo que daremos início ao processo de deleção!</p>
 
-        <a onClick={() => changeIframe(2)}>Deletar minha conta</a>
+        <button onClick={() => changeIframe(2)}>Deletar minha conta</button>
 
         <span>Lembrando que ao deletar sua conta, seus dados serão excluídos parmanentemente!</span>
     </Container>

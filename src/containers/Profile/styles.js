@@ -13,7 +13,7 @@ export const Container = styled.div`
     font-size: 18px;
   }
 
-  a {
+  button {
     display: block;
     margin: 20px 0;
     display: block;
