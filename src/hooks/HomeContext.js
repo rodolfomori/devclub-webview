@@ -8,17 +8,30 @@ export const HomeProvider = ({ children }) => {
   const [iFrame, setIframe] = useState(0)
   const [iFrameKey, setIFrameKey] = useState(0)
   const [loading, setLoading] = useState(true)
-  
-  function changeIframe(iframe){
-    if(iframe !== iFrame){
+
+  function changeIframe(iframe) {
+    if (iframe !== iFrame) {
       setIframe(iframe)
     }
     setIFrameKey(iFrameKey + 1)
-    setLoading(true)
+    if (iframe === 1 || iframe === 2) {
+      setLoading(false)
+    } else {
+      setLoading(true)
+    }
   }
 
   return (
-    <HomeContext.Provider value={{ setIframe, iFrame, loading, setLoading, changeIframe, iFrameKey }}>
+    <HomeContext.Provider
+      value={{
+        setIframe,
+        iFrame,
+        loading,
+        setLoading,
+        changeIframe,
+        iFrameKey,
+      }}
+    >
       {children}
     </HomeContext.Provider>
   )

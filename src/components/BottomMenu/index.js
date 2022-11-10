@@ -1,7 +1,7 @@
 import { Bottom } from './styles'
-import Logo from '../../assets/img/logo-devclub.png'
-import { Image, ContainerItems, Label } from './styles'
-import { MdPeopleAlt } from 'react-icons/md'
+// import Logo from '../../assets/img/logo-devclub.png'
+import { ContainerItems, Label } from './styles'
+// import { MdPeopleAlt } from 'react-icons/md'
 // import { MdOutlineWorkOutline } from 'react-icons/md'
 import { useHome } from '../../hooks/HomeContext'
 
@@ -10,14 +10,14 @@ export function BottomMenu() {
 
   return (
     <Bottom>
-      <ContainerItems onClick={() => changeIframe(1)}>
-        <Image src={Logo} alt="devclub-logo" />
-        <Label>DevClub</Label>
+      <ContainerItems onClick={() => changeIframe(0)}>
+        {/* <Image src={Logo} alt="devclub-logo" /> */}
+        <Label>Home</Label>
       </ContainerItems>
 
-      <ContainerItems onClick={() => changeIframe(0)}>
-        <MdPeopleAlt />
-        <Label>Comunidade</Label>
+      <ContainerItems onClick={() => changeIframe(1)}>
+        {/* <MdPeopleAlt /> */}
+        <Label>Perfil</Label>
       </ContainerItems>
 
       {/* <ContainerItems>

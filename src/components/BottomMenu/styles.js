@@ -18,6 +18,7 @@ export const ContainerItems = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 
   svg {
     height: 75%;
@@ -28,6 +29,7 @@ export const ContainerItems = styled.div`
 
 export const Label = styled.p`
     color: #f0f0f0;
+    font-size: 20px;
 `
 
 export const Image = styled.img`

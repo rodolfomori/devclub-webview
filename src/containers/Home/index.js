@@ -2,6 +2,8 @@ import { BottomMenu } from '../../components/BottomMenu'
 import { Iframe } from './styles'
 import { useHome } from '../../hooks/HomeContext'
 import HashLoader from 'react-spinners/HashLoader'
+import { Profile } from '../Profile'
+import { DeleteAccount } from '../DeleteAccount'
 
 export function Home() {
   const { iFrame, setLoading, loading, iFrameKey } = useHome()
@@ -14,14 +16,9 @@ export function Home() {
 
   return (
     <div>
+      {iFrame === 2 && <DeleteAccount />}
+      {iFrame === 1 && <Profile />}
       {iFrame === 0 && (
-        <Iframe
-          src="https://comunidade.rodolfomori.com.br"
-          onLoad={() => setLoading(false)}
-          key={iFrameKey}
-        ></Iframe>
-      )}
-      {iFrame === 1 && (
         <Iframe
           src="https://plataforma.devclub.com.br"
           onLoad={() => setLoading(false)}
