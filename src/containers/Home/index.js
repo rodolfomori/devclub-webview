@@ -16,8 +16,13 @@ export function Home() {
 
   return (
     <div>
-      {iFrame === 2 && <DeleteAccount />}
-      {iFrame === 1 && <Profile />}
+      {iFrame === 1 && (
+        <Iframe
+          src="https://comunidade.devclub.com.br"
+          onLoad={() => setLoading(false)}
+          key={iFrameKey}
+        ></Iframe>
+      )}
       {iFrame === 0 && (
         <Iframe
           src="https://plataforma.devclub.com.br"
