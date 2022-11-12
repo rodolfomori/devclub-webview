@@ -19,19 +19,21 @@ export const ContainerItems = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 10px;
+
 
   svg {
-    height: 75%;
-    width: 20%;
+    min-width: 35px;
+    min-height: 35px;
     color: #f0f0f0;
   }
 `
 
 export const Label = styled.p`
     color: #f0f0f0;
-    font-size: 20px;
+    font-size: 16px;
 `
 
 export const Image = styled.img`
-  height: 75%;
+  height: 30px;
 `
