@@ -2,8 +2,8 @@ import { BottomMenu } from '../../components/BottomMenu'
 import { Iframe } from './styles'
 import { useHome } from '../../hooks/HomeContext'
 import HashLoader from 'react-spinners/HashLoader'
-import { Profile } from '../Profile'
-import { DeleteAccount } from '../DeleteAccount'
+// import { Profile } from '../Profile'
+// import { DeleteAccount } from '../DeleteAccount'
 
 export function Home() {
   const { iFrame, setLoading, loading, iFrameKey } = useHome()
