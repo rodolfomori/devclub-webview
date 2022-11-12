@@ -1,4 +1,4 @@
-// import { BottomMenu } from '../../components/BottomMenu'
+import { BottomMenu } from '../../components/BottomMenu'
 import { Iframe } from './styles'
 import { useHome } from '../../hooks/HomeContext'
 import HashLoader from 'react-spinners/HashLoader'
@@ -30,7 +30,7 @@ export function Home() {
           key={iFrameKey}
         ></Iframe>
       )}
-      {/* {!loading && <BottomMenu />} */}
+      {!loading && <BottomMenu />}
 
       <HashLoader color="#9500D4" loading={loading} cssOverride={override} />
     </div>
