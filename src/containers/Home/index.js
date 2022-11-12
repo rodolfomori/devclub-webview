@@ -18,7 +18,7 @@ export function Home() {
     <div>
       {iFrame === 1 && (
         <Iframe
-          src="http://comunidade.devclub.com.br/"
+          src="https://comunidade.devclub.com.br"
           onLoad={() => setLoading(false)}
           key={iFrameKey}
         ></Iframe>
