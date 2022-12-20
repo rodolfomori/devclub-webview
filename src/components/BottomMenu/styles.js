@@ -1,39 +1,41 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
-export const Bottom = styled.div`
+export const Container = styled.div`
   position: fixed;
   bottom: 0;
   background: #343434;
-  width: 100vw;
-  height: 10%;
+  width: 95%;
+  height: 60px;
   display: flex;
-  align-items: center;
   justify-content: space-around;
-  padding: 2%;
-`
+  align-items: center;
+  flex-direction: row;
+  margin: 0 0 18px;
+  border-radius: 15px;
+  margin-left: 2.5%;
+`;
 
 export const ContainerItems = styled.div`
-  height: 100%;
-  width: 100%;
   display: flex;
+  max-height: 85%;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  margin-bottom: 10px;
-
+  background: ${(props) => (props.spotlight ? '#4b4b45' : '#343434;')};
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
 
   svg {
-    min-width: 35px;
-    min-height: 35px;
-    color: #f0f0f0;
+    width: 30px;
+    height: 30px;
   }
-`
+`;
 
 export const Label = styled.p`
     color: #f0f0f0;
-    font-size: 16px;
-`
+    font-size: 14px;
+`;
 
-export const Image = styled.img`
-  height: 30px;
-`
+export const Img = styled.img`
+    height: 26px;
+`;

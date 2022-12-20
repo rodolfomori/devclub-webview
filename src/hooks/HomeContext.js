@@ -7,14 +7,18 @@ const HomeContext = createContext({})
 export const HomeProvider = ({ children }) => {
   const [iFrame, setIframe] = useState(0)
   const [iFrameKey, setIFrameKey] = useState(0)
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(false)
 
   function changeIframe(iframe) {
     if (iframe !== iFrame) {
       setIframe(iframe)
     }
     setIFrameKey(iFrameKey + 1)
-    setLoading(true)
+    if (iframe === 0) {
+      setLoading(false)
+    } else {
+      setLoading(true)
+    }
   }
 
   return (
