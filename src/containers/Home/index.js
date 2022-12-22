@@ -1,8 +1,8 @@
-// import { BottomMenu } from '../../components/BottomMenu'
+import { BottomMenu } from '../../components/BottomMenu'
 import { Iframe} from './styles'
 import { useHome } from '../../hooks/HomeContext'
 import HashLoader from 'react-spinners/HashLoader'
-// import { ContentBanners } from '../ContentBanners'
+import { ContentBanners } from '../ContentBanners'
 
 
 export function Home() {
@@ -16,8 +16,8 @@ export function Home() {
 
   return (
     <div>
-      {/* {iFrame === 0 && <ContentBanners />} */}
-      {iFrame === 0 && (
+      {iFrame === 0 && <ContentBanners />}
+      {iFrame === 1 && (
         <Iframe
           src="https://plataforma.devclub.com.br"
           onLoad={() => setLoading(false)}
@@ -47,7 +47,7 @@ export function Home() {
         ></Iframe>
       )}
 
-      {/* {!loading && <BottomMenu />} */}
+      {!loading && <BottomMenu />}
 
       <HashLoader color="#9500D4" loading={loading} cssOverride={override} />
     </div>
