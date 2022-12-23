@@ -33,21 +33,21 @@ export function ContentBanners() {
         <Banner src={Terca} />
       </a>
 
-      <a href='https://www.instagram.com/rodolfomorii/'>
+      <a href="https://www.instagram.com/rodolfomorii/">
         <ContainerItems>
-          <FaInstagram className="insta" /> <p>@rodolfomorii </p>
+          <FaInstagram style={{ color: '#e400d7' }} /> <p>@rodolfomorii </p>
         </ContainerItems>
       </a>
 
-      <a href='https://www.tiktok.com/@rodolfomori'>
+      <a href="https://www.tiktok.com/@rodolfomori">
         <ContainerItems>
-          <FaTiktok className="tiktok" /> <p>@rodolfomori</p>
+          <FaTiktok style={{ color: '#c7c7c7' }} /> <p>@rodolfomori</p>
         </ContainerItems>
       </a>
 
-      <a href='https://youtube.com/c/rodolfomori'>
+      <a href="https://youtube.com/c/rodolfomori">
         <ContainerItems>
-          <FaYoutube className="youtube" /> <p>@rodolfomori</p>
+          <FaYoutube style={{ color: '#ff0000' }} /> <p>@rodolfomori</p>
         </ContainerItems>
       </a>
     </Container>

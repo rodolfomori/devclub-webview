@@ -26,25 +26,7 @@ export const ContainerItems = styled.div`
   align-items: center;
   padding: 7px;
   gap: 10px;
-  background: #16102f;
-
-  .insta {
-    path {
-      color: #e400d7;
-    }
-  }
-
-  .tiktok {
-    path {
-      color: #c7c7c7;
-    }
-  }
-
-  .youtube {
-    path {
-      color: red;
-    }
-  }
+  background: #5d44c7;
 
   svg {
     height: 45px;
