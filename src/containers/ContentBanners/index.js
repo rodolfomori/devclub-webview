@@ -17,7 +17,7 @@ export function ContentBanners() {
       <a href="https://rodolfomori.com.br/ebook">
         <Banner src={Ebook} />
       </a>
-      <a href="https://go.rodolfomori.com.br/suporte1">
+      <a href="https://go.rodolfomori.com.br/suportev">
         <Banner src={Mentoria} />
       </a>
       <a href="https://www.youtube.com/watch?v=PiSgMhtPH_Y&list=PLsFVybaG4mOBJgUJBsMe0uxu4Sf7rhiAg&ab_channel=RodolfoMori">
