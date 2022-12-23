@@ -9,6 +9,13 @@ export const Container = styled.div`
   flex-direction: column;
   background: #000;
   padding-bottom: 100px;
+
+  a {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 `
 export const ContainerItems = styled.div`
   margin-top: 20px;
@@ -52,6 +59,6 @@ export const ContainerItems = styled.div`
 
 export const Banner = styled.img`
   margin-top: 20px;
-  width: 90%;
+  width: 100%;
   border-radius: 10px;
 `

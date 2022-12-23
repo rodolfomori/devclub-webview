@@ -11,25 +11,45 @@ import { FaInstagram, FaTiktok, FaYoutube } from 'react-icons/fa'
 export function ContentBanners() {
   return (
     <Container>
-      <Banner src={DevClub} />
-      <Banner src={Ebook} />
-      <Banner src={Mentoria} />
-      <Banner src={Playlist} />
-      <Banner src={Suporte} />
-      <Banner src={Telegram} />
-      <Banner src={Terca} />
+      <a href="https://rodolfomori.com.br/devclub">
+        <Banner src={DevClub} />
+      </a>
+      <a href="https://rodolfomori.com.br/ebook">
+        <Banner src={Ebook} />
+      </a>
+      <a href="https://go.rodolfomori.com.br/suporte1">
+        <Banner src={Mentoria} />
+      </a>
+      <a href="https://www.youtube.com/watch?v=PiSgMhtPH_Y&list=PLsFVybaG4mOBJgUJBsMe0uxu4Sf7rhiAg&ab_channel=RodolfoMori">
+        <Banner src={Playlist} />
+      </a>
+      <a href="https://go.rodolfomori.com.br/suporte">
+        <Banner src={Suporte} />
+      </a>
+      <a href="https://go.rodolfomori.com.br/telegram">
+        <Banner src={Telegram} />
+      </a>
+      <a href="https://rodolfomori.com.br/aulas-ao-vivo/">
+        <Banner src={Terca} />
+      </a>
 
-      <ContainerItems>
-        <FaInstagram className='insta'/> <p>@rodolfomorii </p>
-      </ContainerItems>
+      <a href='https://www.instagram.com/rodolfomorii/'>
+        <ContainerItems>
+          <FaInstagram className="insta" /> <p>@rodolfomorii </p>
+        </ContainerItems>
+      </a>
 
-      <ContainerItems>
-        <FaTiktok className='tiktok'/> <p>@rodolfomori</p>
-      </ContainerItems>
+      <a href='https://www.tiktok.com/@rodolfomori'>
+        <ContainerItems>
+          <FaTiktok className="tiktok" /> <p>@rodolfomori</p>
+        </ContainerItems>
+      </a>
 
-      <ContainerItems>
-        <FaYoutube className='youtube'/> <p>@rodolfomori</p>
-      </ContainerItems>
+      <a href='https://youtube.com/c/rodolfomori'>
+        <ContainerItems>
+          <FaYoutube className="youtube" /> <p>@rodolfomori</p>
+        </ContainerItems>
+      </a>
     </Container>
   )
 }
