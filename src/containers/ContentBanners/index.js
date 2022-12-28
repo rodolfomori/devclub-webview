@@ -6,11 +6,22 @@ import Playlist from '../../assets/img/banners/playlist.webp'
 import Suporte from '../../assets/img/banners/suporte.webp'
 import Telegram from '../../assets/img/banners/telegram.webp'
 import Terca from '../../assets/img/banners/terca.webp'
+import YT from '../../assets/img/youtube/live43.png'
+import YT2 from '../../assets/img/youtube/parte2.png'
+
 import { FaInstagram, FaTiktok, FaYoutube } from 'react-icons/fa'
 
 export function ContentBanners() {
   return (
     <Container>
+      <h1 style={{color: 'white', marginTop: 20}}>Live da Semana</h1>
+      <a href="https://youtu.be/JaOnoBTVKec">
+        <Banner src={YT} />
+      </a>
+      <a href="https://youtu.be/iBgeXW79kLI" style={{marginBottom: 40}}>
+        <Banner src={YT2} />
+      </a>
+
       <a href="https://rodolfomori.com.br/devclub">
         <Banner src={DevClub} />
       </a>
