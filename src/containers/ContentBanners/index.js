@@ -6,14 +6,14 @@ import Playlist from '../../assets/img/banners/playlist.webp'
 import Suporte from '../../assets/img/banners/suporte.webp'
 import Telegram from '../../assets/img/banners/telegram.webp'
 import Terca from '../../assets/img/banners/terca.webp'
-import YT from '../../assets/img/youtube/THUMB_YTB_01-01-23.png'
+import YT from '../../assets/img/youtube/thumb.png'
 
 import { FaInstagram, FaTiktok, FaYoutube } from 'react-icons/fa'
 
 export function ContentBanners() {
   return (
     <Container>
-      <a href="https://youtu.be/9choz3dTcyk" style={{marginBottom: 40}}>
+      <a href="https://youtu.be/BK3U6pnkMcU" style={{marginBottom: 40}}>
         <Banner src={YT} />
       </a>
 
