@@ -14,13 +14,15 @@ import { FaInstagram, FaTiktok, FaYoutube } from 'react-icons/fa'
 export function ContentBanners() {
   return (
     <Container>
-      <a href="https://youtu.be/yB6sH46tdnc" style={{marginBottom: 20}}>
+      <a href="https://youtu.be/dHvL2VQ7lw0" style={{marginBottom: 20}}>
         <Banner src={YT2} />
       </a>
 
       <a href="https://youtu.be/BK3U6pnkMcU" style={{marginBottom: 40}}>
         <Banner src={YT} />
       </a>
+
+      <a className='link-pdf' href='https://rodolfo-mori-material.s3.amazonaws.com/%23Live+45+-+Curso+de+HTML.pdf'>PDF do Curso de HTML</a>
 
 
 

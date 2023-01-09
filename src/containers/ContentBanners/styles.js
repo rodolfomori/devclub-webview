@@ -10,6 +10,17 @@ export const Container = styled.div`
   background: #000;
   padding-bottom: 100px;
 
+  .link-pdf {
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background: #804096;
+    padding: 10px;
+    border-radius: 7px;
+  }
+
   a {
     width: 90%;
     display: flex;
