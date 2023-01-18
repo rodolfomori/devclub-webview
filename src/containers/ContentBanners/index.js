@@ -22,9 +22,7 @@ export function ContentBanners() {
         <Banner src={YT} />
       </a>
 
-      <a className='link-pdf' href='https://rodolfo-mori-material.s3.amazonaws.com/%23Live+45+-+Curso+de+HTML.pdf'>PDF do Curso de HTML</a>
-
-
+      {/* <a className='link-pdf' href='https://rodolfo-mori-material.s3.amazonaws.com/%23Live+45+-+Curso+de+HTML.pdf'>PDF do Curso de HTML</a> */}
 
       <a href="https://rodolfomori.com.br/devclub">
         <Banner src={DevClub} />
