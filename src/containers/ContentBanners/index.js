@@ -7,7 +7,7 @@ import Suporte from '../../assets/img/banners/suporte.webp'
 import Telegram from '../../assets/img/banners/telegram.webp'
 import Terca from '../../assets/img/banners/terca.webp'
 import YT from '../../assets/img/youtube/thumb.png'
-import YT2 from '../../assets/img/youtube/thumb2.png'
+import YT2 from '../../assets/img/youtube/thumb-jr.png'
 
 import { FaInstagram, FaTiktok, FaYoutube } from 'react-icons/fa'
 
