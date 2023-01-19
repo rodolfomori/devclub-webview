@@ -7,14 +7,14 @@ import Suporte from '../../assets/img/banners/suporte.webp'
 import Telegram from '../../assets/img/banners/telegram.webp'
 import Terca from '../../assets/img/banners/terca.webp'
 import YT from '../../assets/img/youtube/thumb.png'
-import YT2 from '../../assets/img/youtube/thumb-jr.png'
+import YT2 from '../../assets/img/youtube/thumb-jr.jpeg'
 
 import { FaInstagram, FaTiktok, FaYoutube } from 'react-icons/fa'
 
 export function ContentBanners() {
   return (
     <Container>
-      <a href="https://youtu.be/n5l38nWe0-o" style={{marginBottom: 20}}>
+      <a href="https://youtu.be/SFEMwzHbiw8" style={{marginBottom: 20}}>
         <Banner src={YT2} />
       </a>
 
