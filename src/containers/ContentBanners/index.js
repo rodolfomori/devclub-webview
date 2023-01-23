@@ -14,7 +14,7 @@ import { FaInstagram, FaTiktok, FaYoutube } from 'react-icons/fa'
 export function ContentBanners() {
   return (
     <Container>
-      <a href="https://youtu.be/SFEMwzHbiw8" style={{marginBottom: 20}}>
+      <a href="https://youtu.be/T5fOEApOOaA" style={{marginBottom: 20}}>
         <Banner src={YT2} />
       </a>
 
