@@ -30,7 +30,7 @@ export function Launch() {
                 </div>
                 <p className="text-start"><strong>START:</strong> O Oceano de Oportunidades na Programação</p>
                 <div className="content-2">
-                    <a href="https://www.youtube.com/live/-n6ZqsrNcjI?feature=share" target="_blank" rel="noreferrer">
+                    <a href="https://www.rodolfomori.com.br/redaula1" target="_blank" rel="noreferrer">
                         <button className="button"><img src={Youtube} alt="icone sino" /> ASSISTIR A AULA</button>
                     </a>
 
@@ -48,7 +48,7 @@ export function Launch() {
                 </div>
                 <p className="text-start"><strong>Mão na massa:</strong> a segunda tecnologia na missão do Programador</p>
                 <div className="content-2">
-                    <a href="https://youtu.be/oW0mPMNlBHs" target="_blank" rel="noreferrer">
+                    <a href="https://www.rodolfomori.com.br/redaula2" target="_blank" rel="noreferrer">
                         <button className="button"><img src={Youtube} alt="icone sino" /> ASSISTIR A AULA</button>
                     </a>
                     <a href="https://drive.google.com/file/d/18rFKEDhB-N45lQ8jVdGQnt8NueXTf4dX/view?usp=sharing" className="pdf">PDF da AULA</a>
