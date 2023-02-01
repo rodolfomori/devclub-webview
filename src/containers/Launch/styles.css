@@ -1,0 +1,563 @@
+@font-face {
+    font-family: 'Sora';
+    font-display: swap;
+    src: url("./assets/fonts/Sora/Sora-Thin.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Sora-Bold';
+    font-display: swap;
+    src: url("./assets/fonts/Sora/Sora-Bold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Sora-Regular';
+    font-display: swap;
+    src: url("./assets/fonts/Sora/Sora-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Sora-Medium';
+    font-display: swap;
+    src: url('./assets/fonts/Sora/Sora-Medium.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+.div-cronometro {
+    width: 100%;
+    background-color: #CFFF00;
+    padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards-cronometro {
+ display: flex;
+}
+
+.titulo-cronometro {
+    color: #000;
+    text-align: center;
+    font-family: 'Sora-Medium';
+    font-size: 26px;
+    margin-right: 15px;
+}
+
+.card-cronometro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 15px;
+    flex-direction: column;
+}
+
+.card-cronometro p {
+    color: #000;
+    font-family: 'Sora-Regular';
+}
+
+.el {
+    font-size: 32px;
+    font-family: 'Sora-Regular';
+}
+
+.container-1 {
+    background-image: url('assets/background-novo.jpg');
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    border: 2px solid;
+    border-image: linear-gradient(to right, #CFFF0000, #CFFF00, #CFFF0000) 1;
+}
+.mobile-img{
+    display: none;
+}
+
+.logo-missao-zero {
+    width: 100%;
+    max-width: 550px;
+    height: 100%;
+}
+
+.card-container-1 {
+    padding: 55px;
+    margin-left: 100px;
+    max-width: 600px;
+}
+
+.card-container-1 p {
+    font-size: 25px;
+    font-family: 'Sora-Bold';
+    font-size: 25px;
+}
+
+.card-container-1 span {
+    color: #cfff00;
+    font-family: 'Sora-Bold';
+}
+
+.container-2 {
+    background-image: url('assets/background-2.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 1px;
+    padding-bottom: 30px;
+}
+
+.texto-dias {
+    font-size: 35px;
+    font-family: 'Sora-Regular';
+    text-align: center;
+    margin-bottom: 12px;
+    padding: 30px;
+}
+
+.texto-dias span {
+    font-size: 35px;
+    color: #cfff00;
+    font-family: 'Sora-Regular';
+    text-align: center;
+}
+
+.texto-programacao {
+    font-size: 18px;
+    font-family: 'Sora';
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-container-2 {
+    max-width: 1220px;
+    margin: 30px auto 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: #00091b;
+    padding: 60px;
+    border-radius: 15px;
+}
+
+.baner {
+    border-radius: 10px;
+    max-width: 450px;
+    margin-right: 52px;
+}
+
+.content-1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.content-1 p {
+    color: #cfff00;
+    font-family: 'Sora', Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2em;
+    margin-right: 16px;
+}
+
+.content-1 span img {
+    width: 18px;
+    margin-right: 10px;
+    margin-bottom: -4px;
+}
+
+.content-1 span {
+    font-family: 'Sora', Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.text-start {
+    color: #fff;
+    font-family: 'Sora', Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.4em;
+    margin-bottom: 60px;
+}
+
+.text-start strong {
+    font-family: 'Sora-Bold', Sans-serif;
+    margin-right: 6px;
+}
+
+.content-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.content-2 p {
+    margin-left: 5px;
+}
+
+.button {
+    font-family: 'Sora-Bold', Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    background-color: #cfff00;
+    box-shadow: 0 0 18px 0 rgb(207 255 0 / 41%);
+    padding: 18px 50px;
+    margin-right: 26px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: tamanho;
+    transition: 1s;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+}
+
+.button:hover {
+    transform: scale(1.05);
+    animation: none;
+}
+
+.button img {
+    width: 18px;
+    margin-right: 16px;
+}
+
+@keyframes tamanho {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.content-2 p {
+    max-width: 160px;
+    color: #fff;
+    font-family: 'Sora', Sans-serif;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 1.4em;
+}
+
+.card-container-3 {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-salve-calendario {
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: 'Sora-Medium', Sans-serif;
+}
+
+.p-ultimo-texto {
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+    font-family: 'Sora', Sans-serif;
+}
+
+
+.card-container-3-parte-2 {
+    width: 100%;
+    margin: 0 auto;
+    padding: 80px 0;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 3px solid;
+    border-image: linear-gradient(to right, #CFFF0000, #CFFF00, #CFFF0000) 1;
+}
+
+.div-icones {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    align-items: start;
+    padding: 20px 0;
+    max-width: 920px;
+}
+
+.p-texto-1 {
+    color: #fff;
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Sora-Medium', Sans-serif;
+    margin-bottom: 20px;
+
+}
+
+.p-texto-2 {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Sora', Sans-serif;
+    line-height: 1.2em;
+}
+
+.card-container-3-parte-2 div img {
+    max-width: 35px;
+    margin-bottom: 15px;
+}
+
+.container-4 {
+    background-image: url('assets/background-3.webp');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: unset;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.div-container-4 {
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.container-4-texto-1 {
+    color: #00091b;
+    font-family: 'Sora-Medium', Sans-serif;
+    font-size: 25px;
+    line-height: 1.4em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container-4-texto-2 {
+    color: #00091b;
+    font-family: 'Sora-Regular', Sans-serif;
+    font-size: 18px;
+    line-height: 1.4em;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.icones-2-textos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.icones-2-textos p:first-child {
+    color: #06235e;
+    font-family: 'Sora-Medium', Sans-serif;
+    font-size: 20px;
+    line-height: 1.4em;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.icones-2-textos p:last-child {
+    color: #000;
+    font-family: 'Sora', Sans-serif;
+    font-size: 16px;
+    margin: 30px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.div-icones-2 img {
+    max-width: 55px;
+    margin-right: 26px;
+
+}
+
+.div-icones-2 {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    padding: 0 auto;
+}
+
+.container-5 {
+    background-color: #00091B;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: unset;
+    padding: 10px 0 80px 0;
+}
+
+.div-container-5 {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.div-container-5 :first-child {
+    font-family: 'Sora-Medium', Sans-serif;
+    font-size: 25px;
+    line-height: 1.4em;
+    padding: 80px 0 30px 0;
+}
+
+.div-container-5 :last-child {
+    font-family: 'Sora', Sans-serif;
+    font-size: 18px;
+    line-height: 1.2em;
+    padding-bottom: 60px;
+}
+
+.div-container-5-parte-2 {
+    background-color: #02112A;
+    width: 90%;
+    margin-top: 50px;
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+}
+
+.div-elementos {
+    display: flex;
+    flex-direction: column;
+}
+
+.p-1 {
+    font-family: 'Sora-Medium', Sans-serif;
+    font-size: 25px;
+    line-height: 1.4em;
+    margin-left: 10px;
+}
+
+.p-1 span {
+    font-family: 'Sora-Medium', Sans-serif;
+    font-size: 25px;
+    line-height: 1.4em;
+    color: #CFFF00;
+}
+
+.p-2 {
+    color: #fff;
+    font-family: 'Sora', Sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.2em;
+    padding: 20px 0 0 10px;
+}
+
+
+.titulo-cronometro-2 {
+    color: #cfff00;
+    font-family: 'Sora-Medium';
+    font-size: 17px;
+    margin: 14px;
+    line-height: 1.2em;
+}
+
+.card-cronometro-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    font-size: 14px;
+
+}
+
+.card-cronometro-2 p {
+    color: #fff;
+}
+
+.el{
+    font-size: 52px;
+    font-family: 'Sora-Regular';
+}
+.div-hora{
+    display: flex;
+    align-self: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+.img {
+    max-width: 50%;
+    margin-top: 30px;
+}
+
+.div-redes-sociais p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 25px;
+    font-family: 'Sora';
+}
+.div-img-redes-sociais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div-img-redes-sociais img{
+    width: 60px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #242424;
+    height: 100px;
+}
+
+.div-footer {
+    width: 100%;
+}
+
+.div-footer p {
+    text-align: center;
+    padding: 35px;
+    font-size: 15px;
+}
+
+.pdf {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
