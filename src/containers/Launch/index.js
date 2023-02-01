@@ -43,15 +43,15 @@ export function Launch() {
             <div className="content-card-2">
                 <div className="content-1">
                     <p>AULA 2</p>
-
+                    
                     <span><img src={Calendario} alt="icone de calendario" /> QUARTA 01/02 às 19h00</span>
                 </div>
                 <p className="text-start"><strong>Mão na massa:</strong> a segunda tecnologia na missão do Programador</p>
                 <div className="content-2">
                     <a href="https://youtu.be/oW0mPMNlBHs" target="_blank" rel="noreferrer">
-                        <button className="button"><img src={Sino} alt="icone sino" /> DEFINIR LEMBRETE</button>
+                        <button className="button"><img src={Youtube} alt="icone sino" /> ASSISTIR A AULA</button>
                     </a>
-                    <p>Aperte para ser notificado quando a aula começar!</p>
+                    <a href="https://drive.google.com/file/d/18rFKEDhB-N45lQ8jVdGQnt8NueXTf4dX/view?usp=sharing" className="pdf">PDF da AULA</a>
                 </div>
             </div>
         </div>
