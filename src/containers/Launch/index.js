@@ -54,6 +54,7 @@ export function Launch() {
                     <a href="https://drive.google.com/file/d/18rFKEDhB-N45lQ8jVdGQnt8NueXTf4dX/view?usp=sharing" className="pdf">PDF da AULA</a>
                 </div>
             </div>
+            
         </div>
         <div className="card-container-2">
             <img src={Aula3} alt="baner aula 03" className="baner" />
@@ -64,10 +65,10 @@ export function Launch() {
                 </div>
                 <p className="text-start"><strong>NA PRÁTICA:</strong> Aprenda sua Primeira Linguagem de Programação</p>
                 <div className="content-2">
-                    <a href="https://youtu.be/rM2pnvDuxjY" target="_blank" rel="noreferrer">
-                        <button className="button"><img src={Sino} alt="icone sino" /> DEFINIR LEMBRETE</button>
+                <a href="https://www.rodolfomori.com.br/redaula3" target="_blank" rel="noreferrer">
+                        <button className="button"><img src={Youtube} alt="icone sino" /> ASSISTIR A AULA</button>
                     </a>
-                    <p>Aperte para ser notificado quando a aula começar!</p>
+                    <a href="https://drive.google.com/file/d/1anm5ZYsw4FHWbtTrNgMNYz11c6V6mw4j/view?usp=sharing" className="pdf">PDF da AULA</a>
                 </div>
             </div>
         </div>
