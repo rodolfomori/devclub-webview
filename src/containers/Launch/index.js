@@ -39,7 +39,7 @@ export function Launch() {
               <strong>START:</strong> O Oceano de Oportunidades na Programação
             </p>
             <div className="content-2">
-              <a
+              {/* <a
                 href="https://swiy.co/EP1-MVP"
                 target="_blank"
                 rel="noreferrer"
@@ -47,11 +47,11 @@ export function Launch() {
                 <button className="button">
                   <img src={Sino} alt="icone sino" /> DEFINIR LEMBRETE
                 </button>
-              </a>
-              <p>Aperte para ser notificado quando a aula começar!</p>
-              {/* <a href="https://youtube.com/live/-n6ZqsrNcjI" target="_blank" rel="noreferrer">
+              </a> */}
+              {/* <p>Aperte para ser notificado quando a aula começar!</p> */}
+              <a href="https://swiy.co/EP1-MVP" target="_blank" rel="noreferrer">
                         <button className="button"><img src={Youtube} alt="icone sino" /> ASSISTIR A AULA</button>
-                    </a> */}
+                    </a>
 
               {/* <a href="https://drive.google.com/file/d/1P0bRQgvZ4KYFd-lhlj27Z6BZCC0q1IHj/view?usp=sharing" className="pdf">PDF da AULA</a> */}
             </div>
