@@ -53,7 +53,7 @@ export function Launch() {
                         <button className="button"><img src={Youtube} alt="icone sino" /> ASSISTIR A AULA</button>
                     </a>
 
-              <a href="https://rodolfo-mori-material.s3.amazonaws.com/MapaMissa%CC%83oProgramador-%5BMarc%CC%A7o%5D-parte+2.pdf" className="pdf">PDF da AULA</a>
+              <a href="https://drive.google.com/file/d/1NPqofwrP9sQH9oHBf4jJIj5b1bob_22f/view?usp=sharing" className="pdf">Mapa da AULA</a>
             </div>
           </div>
         </div>
