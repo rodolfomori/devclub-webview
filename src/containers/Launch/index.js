@@ -28,9 +28,7 @@ export function Launch() {
           <div className="content-card-2">
             <div className="content-1">
               <p>AULA 1</p>
-
               <span>
-                {' '}
                 <img src={Calendario} alt="icone de calendario" /> TERÇA 14/03
                 às 19h00
               </span>
@@ -53,7 +51,7 @@ export function Launch() {
                         <button className="button"><img src={Youtube} alt="icone sino" /> ASSISTIR A AULA</button>
                     </a>
 
-              <a href="https://drive.google.com/file/d/1NPqofwrP9sQH9oHBf4jJIj5b1bob_22f/view?usp=sharing" className="pdf">Mapa da AULA</a>
+              <a href="https://drive.google.com/file/d/1jIyQqMv4cD2W5CuDxq_c3oJFylONQXWg/view?usp=sharing" className="pdf">Mapa da AULA 01</a>
             </div>
           </div>
         </div>
@@ -73,7 +71,7 @@ export function Launch() {
               Programador
             </p>
             <div className="content-2">
-              <a
+              {/* <a
                 href="https://swiy.co/MVP-EP2"
                 target="_blank"
                 rel="noreferrer"
@@ -82,11 +80,11 @@ export function Launch() {
                   <img src={Sino} alt="icone sino" /> DEFINIR LEMBRETE
                 </button>
               </a>
-              <p>Aperte para ser notificado quando a aula começar!</p>
-              {/* <a href="https://youtube.com/live/oW0mPMNlBHs" target="_blank" rel="noreferrer">
+              <p>Aperte para ser notificado quando a aula começar!</p> */}
+              <a href="https://swiy.co/MVP-EP2" target="_blank" rel="noreferrer">
                         <button className="button"><img src={Youtube} alt="icone sino" /> ASSISTIR A AULA</button>
-                    </a> */}
-              {/* <a href="https://drive.google.com/file/d/18rFKEDhB-N45lQ8jVdGQnt8NueXTf4dX/view?usp=sharing" className="pdf">PDF da AULA</a> */}
+                    </a>
+              <a href="https://drive.google.com/file/d/1jKaRdmds6Xt2h-M7h1JpGqVrzDG3j1P0/view?usp=sharing" className="pdf">Mapa da AULA 02</a>
             </div>
           </div>
         </div>
@@ -105,7 +103,7 @@ export function Launch() {
               Programação
             </p>
             <div className="content-2">
-              <a
+              {/* <a
                 href="https://swiy.co/MVP-EP3"
                 target="_blank"
                 rel="noreferrer"
@@ -113,12 +111,12 @@ export function Launch() {
                 <button className="button">
                   <img src={Sino} alt="icone sino" /> DEFINIR LEMBRETE
                 </button>
-              </a>
-              <p>Aperte para ser notificado quando a aula começar!</p>{' '}
-              {/* <a href="https://youtube.com/live/rM2pnvDuxjY" target="_blank" rel="noreferrer">
+              </a> */}
+              {/* <p>Aperte para ser notificado quando a aula começar!</p>{' '} */}
+              <a href="https://swiy.co/MVP-EP3" target="_blank" rel="noreferrer">
                         <button className="button"><img src={Youtube} alt="icone sino" /> ASSISTIR A AULA</button>
-                    </a> */}
-              {/* <a href="https://drive.google.com/file/d/1anm5ZYsw4FHWbtTrNgMNYz11c6V6mw4j/view?usp=sharing" className="pdf">PDF da AULA</a> */}
+                    </a>
+              <a href="https://drive.google.com/file/d/1jE3a07DNVqTYNMafMPcjLwt2SRWhQ92Q/view?usp=sharing" className="pdf">Mapa da AULA 03</a>
             </div>
           </div>
         </div>
