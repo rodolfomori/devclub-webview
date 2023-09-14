@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 export const Container = styled.div`
@@ -49,6 +50,15 @@ export const ContainerItems = styled.div`
     font-weight: bold;
     font-size: 17px;
   }
+`
+
+export const LinkDelete = styled(Link)`
+  margin-top: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+  width: 200px !important;
 `
 
 export const Banner = styled.img`

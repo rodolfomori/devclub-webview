@@ -1,4 +1,4 @@
-import { Container, Banner, ContainerItems } from './styles'
+import { Container, Banner, ContainerItems, LinkDelete } from './styles'
 import DevClub from '../../assets/img/banners/devclub.webp'
 import Ebook from '../../assets/img/banners/ebook.webp'
 import Mentoria from '../../assets/img/banners/mentoria.webp'
@@ -9,7 +9,7 @@ import Terca from '../../assets/img/banners/terca.webp'
 import YT from '../../assets/img/youtube/thumb.png'
 import YT2 from '../../assets/img/youtube/thumb-jr.jpeg'
 
-import { FaInstagram, FaTiktok, FaYoutube } from 'react-icons/fa'
+import { FaInstagram, FaTiktok, FaYoutube} from 'react-icons/fa'
 
 export function ContentBanners() {
   return (
@@ -63,6 +63,9 @@ export function ContentBanners() {
           <FaYoutube style={{ color: '#ff0000' }} /> <p>@rodolfomori</p>
         </ContainerItems>
       </a>
+
+      <LinkDelete to='/delete'>Deletar minha conta</LinkDelete>
+
     </Container>
   )
 }
