@@ -14,7 +14,7 @@ import { FaInstagram, FaTiktok, FaYoutube} from 'react-icons/fa'
 export function ContentBanners() {
   return (
     <Container>
-      <a href="https://link.rodolfomori.com.br/evento" style={{marginBottom: 20}} target='_blank' rel="noreferrer" >
+      <a href="https://rodolfomori.com.br/missao-programador-do-zero-cv3" style={{marginBottom: 20}} target='_blank' rel="noreferrer" >
         <Banner src={Evento} />
       </a>
 
