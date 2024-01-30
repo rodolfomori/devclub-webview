@@ -1,22 +1,18 @@
 import { Container, Banner, ContainerItems, LinkDelete } from './styles'
 import DevClub from '../../assets/img/banners/devclub.webp'
-import Ebook from '../../assets/img/banners/ebook.webp'
-import Mentoria from '../../assets/img/banners/mentoria.webp'
 import Playlist from '../../assets/img/banners/playlist.webp'
 import Suporte from '../../assets/img/banners/suporte.webp'
-import Telegram from '../../assets/img/banners/telegram.webp'
-import Terca from '../../assets/img/banners/terca.webp'
 import YT from '../../assets/img/youtube/thumb.png'
-import Evento from '../../assets/img/banners/Banner-Reel.png'
+// import Evento from '../../assets/img/banners/Banner-Reel.png'
 
 import { FaInstagram, FaTiktok, FaYoutube} from 'react-icons/fa'
 
 export function ContentBanners() {
   return (
     <Container>
-      <a href="https://rodolfomori.com.br/missao-programador-do-zero-cv3" style={{marginBottom: 20}} target='_blank' rel="noreferrer" >
+      {/* <a href="https://rodolfomori.com.br/missao-programador-do-zero-cv3" style={{marginBottom: 20}} target='_blank' rel="noreferrer" >
         <Banner src={Evento} />
-      </a>
+      </a> */}
 
       <a href="https://youtu.be/BK3U6pnkMcU" style={{marginBottom: 40}} rel="noreferrer">
         <Banner src={YT} />
@@ -24,14 +20,8 @@ export function ContentBanners() {
 
       {/* <a className='link-pdf' href='https://rodolfo-mori-material.s3.amazonaws.com/%23Live+45+-+Curso+de+HTML.pdf'>PDF do Curso de HTML</a> */}
 
-      <a href="https://rodolfomori.com.br/devclub">
+      <a href="https://rodolfomori.com.br/devclub-n1">
         <Banner src={DevClub} />
-      </a>
-      <a href="https://rodolfomori.com.br/ebook">
-        <Banner src={Ebook} />
-      </a>
-      <a href="https://go.rodolfomori.com.br/suportev">
-        <Banner src={Mentoria} />
       </a>
       <a href="https://www.youtube.com/watch?v=PiSgMhtPH_Y&list=PLsFVybaG4mOBJgUJBsMe0uxu4Sf7rhiAg&ab_channel=RodolfoMori">
         <Banner src={Playlist} />
@@ -39,13 +29,6 @@ export function ContentBanners() {
       <a href="https://go.rodolfomori.com.br/suporte">
         <Banner src={Suporte} />
       </a>
-      <a href="https://go.rodolfomori.com.br/telegram">
-        <Banner src={Telegram} />
-      </a>
-      <a href="https://rodolfomori.com.br/aulas-ao-vivo/">
-        <Banner src={Terca} />
-      </a>
-
       <a href="https://www.instagram.com/rodolfomorii/">
         <ContainerItems>
           <FaInstagram style={{ color: '#e400d7' }} /> <p>@rodolfomorii </p>
